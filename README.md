@@ -1,118 +1,118 @@
-# DDFA Landing Page
+<p align="center">
+  <img src="assets/banner.png" alt="DDFA Banner" width="100%">
+</p>
 
-This repository hosts the public landing page for the **Data Distribution Fairness Act (DDFA)** movement.
+<h1 align="center">The DDFA Landing Page</h1>
+<p align="center"><strong>We, The Majority — Digital Rights for All</strong></p>
 
-When deployed on GitHub Pages, your site will be live at:
-
-```text
-https://YOUR-GITHUB-USERNAME.github.io/DDFA/
-```
-
-_Update the repo name or path if you choose something different._
-
----
-
-## Files
-
-- `index.html` – Main landing page
-- `style.css` – Styling (dark/light theme, layout, animations)
-- `script.js` – Theme toggle and signature bar logic
-- `assets/banner.png` – Your DDFA banner image (you add this)
-- `assets/favicon.svg` – Browser tab icon
-- `MN_DDFA_Option1_HouseStyle.pdf` – Minnesota bill draft (add from your PDF)
+<p align="center">
+  <img src="https://img.shields.io/badge/Digital%20Rights-Protection-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Minnesota-Legislative%20Proposal-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Movement-We%2C%20The%20Majority-purple?style=for-the-badge">
+  <img src="https://img.shields.io/badge/DDFA-Version%201.0-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/GitHub%20Pages-Live-black?style=for-the-badge">
+</p>
 
 ---
 
-## Petition Link
+## 🌐 Live Site
+Your public DDFA landing page is available at:
 
-All "Sign the Petition" buttons point to:
-
-https://change.org/p/pass-the-ddfa-data-distribution-fairness-act
-
-If the URL changes, open `index.html` and search for `change.org` to update it.
+👉 **https://wethemajority.github.io/DDFA/**
 
 ---
 
-## Signature Widget
+## 📄 About the DDFA
+The **Data Distribution Fairness Act (DDFA)** is a proposed Minnesota digital rights bill designed to:
 
-The signature widget is manual (Change.org does not expose a simple live API).
+- Require transparency when data is collected  
+- Prohibit dark patterns  
+- Limit data brokers  
+- Ensure opt-in consent  
+- Establish algorithmic fairness  
+- Guarantee breach notifications  
+- **Provide fair compensation** when data is monetized  
 
-To update it:
-
-1. Open `index.html`.
-2. Find:
-
-   ```html
-   <span id="sigCurrent" data-target-count="5">5</span>
-   <span id="sigGoal">5000</span>
-   ```
-
-3. Change `data-target-count` and the inner text `5` to your latest signature count.
-4. Change `5000` if you want a different goal.
-5. Commit and push. The progress bar will automatically resize based on the new ratio.
+Your data has value — and **so do you.**
 
 ---
 
-## How to Enable GitHub Pages
+## 📝 Download the Bill (PDF)
+A professionally formatted Minnesota legislative draft is included here:
 
-1. Create a new **public** repository on GitHub, for example: `DDFA`.
-2. Upload all files from this folder to the **root** of the repo:
-   - `index.html`
-   - `style.css`
-   - `script.js`
-   - `README.md`
-   - folder: `assets/`
-   - file: `MN_DDFA_Option1_HouseStyle.pdf`
-3. Commit the changes.
-
-Then:
-
-1. In the repo, click **Settings**.
-2. Scroll down to **Pages** in the left sidebar.
-3. Under **Source**, choose:
-   - Branch: `main`
-   - Folder: `/root`
-4. Click **Save**.
-
-After a minute or two, GitHub will show your live URL near the top of the Pages section.
+👉 **[MN_DDFA_Option1_HouseStyle.pdf](MN_DDFA_Option1_HouseStyle.pdf)**
 
 ---
 
-## Editing Text and Content
+## ✊ Sign the Petition
+Help support modern digital rights and fair data laws:
 
-Open `index.html` in any text editor and look for:
+### 🔗 **https://www.change.org/p/pass-the-ddfa-data-distribution-fairness-act**
 
-- Hero paragraph — adjust the tone or details.
-- Digital rights bullet lists — add/remove items.
-- Updates / Movement Log — replace with real milestones and dates.
+Or scan the QR code:
 
-You do **not** need any build tools. This is a static site.
-
----
-
-## Dark / Light Mode
-
-The page starts in dark mode by default. Users can toggle using the button in the header.
-
-To default to light mode instead, change:
-
-```html
-<html lang="en" data-theme="dark">
-```
-
-to:
-
-```html
-<html lang="en" data-theme="light">
-```
-
-Save, commit, and push.
+<p align="center">
+  <img src="assets/qr_ddfa.png" alt="QR Code" width="250">
+</p>
 
 ---
 
-## Assets You Must Provide
+## 📂 Repository Structure
 
-- `assets/banner.png` – export your DDFA "Pass the DDFA (Act)" banner image and place it in the `assets` folder with this exact file name.
-- `MN_DDFA_Option1_HouseStyle.pdf` – the Minnesota House–style bill draft you will hand to lawmakers.
+| File / Folder | Purpose |
+|--------------|----------|
+| `index.html` | Main landing page |
+| `style.css` | Stylesheet (themes, layout, UI animations) |
+| `script.js` | Theme toggle + petition progress logic |
+| `assets/banner.png` | Social/banner image |
+| `assets/favicon.svg` | Browser tab icon |
+| `assets/qr_ddfa.png` | Petition QR code |
+| `MN_DDFA_Option1_HouseStyle.pdf` | Full Minnesota bill PDF |
 
-Once those are in place and GitHub Pages is enabled, your site is ready to share.
+---
+
+## 🚀 Deployment Instructions (GitHub Pages)
+
+1. Open your repo on GitHub  
+2. Go to **Settings → Pages**  
+3. Under **Build and Deployment:**  
+   - **Source:** `Deploy from branch`  
+   - **Branch:** `main`  
+   - **Folder:** `/ (root)`  
+4. Click **Save**
+
+Your site will deploy in 15–60 seconds.
+
+---
+
+## 🤝 How to Contribute
+
+We welcome public involvement. You can:
+
+### Contribute ideas  
+Submit issues for:
+- Improvements to the bill  
+- Additional rights we should include  
+- UX/UI improvements to the landing page  
+
+### Contribute code  
+Pull requests are welcome for:
+- HTML/CSS improvements  
+- Better mobile layout  
+- Accessibility upgrades  
+
+### Contribute activism  
+You can help by:
+- Sharing the petition  
+- Sending the DDFA to lawmakers  
+- Printing the PDF and distributing copies  
+- Creating social content and graphics  
+
+---
+
+## 📣 Movement Motto
+> **“Your data has value. So do you.”**
+
+<p align="center">
+  <img src="assets/banner.png" width="60%">
+</p>
