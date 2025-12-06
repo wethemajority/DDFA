@@ -88,6 +88,17 @@ body {
   gap: 10px;
 }
 
+.donation-disclaimer {
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #9bb0c9;
+    line-height: 1.4;
+}
+.donation-disclaimer strong {
+    color: #dbe8ff;
+}
+
+
 /* BUTTONS */
 
 .primary-btn,
